@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mido.mk
+    $(LOCAL_DIR)/potato_mido.mk
 
 COMMON_LUNCH_CHOICES :=  \
-    aosp_mido-userdebug
+    potato_mido-userdebug
