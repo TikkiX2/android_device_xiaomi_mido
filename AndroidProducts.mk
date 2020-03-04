@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_mido.mk
+    $(LOCAL_DIR)/derp_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_mido-userdebug 
+    derp_mido-userdebug 
 
