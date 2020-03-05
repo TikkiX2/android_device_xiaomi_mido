@@ -21,9 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
-
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -31,7 +28,7 @@ IS_PHONE := true
 TARGET_MINIMAL_APPS := false
 TARGET_INCLUDE_STOCK_ARCORE := true
 
-# Official-ify
+# DerpTikk-ify
 DERP_BUILDTYPE := Unofficial
 
 # Inherit some common AndroidQ stuff.
