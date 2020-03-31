@@ -27,7 +27,6 @@
 
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
-import /vendor/etc/init/hw/init.safailnet.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
@@ -372,9 +371,4 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
     class core
     group system
     disabled
-    oneshot
-
-service goodix_script /vendor/bin/init.goodix.sh
-    class late_start
-    user system
     oneshot
