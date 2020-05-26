@@ -29,7 +29,7 @@ TARGET_MINIMAL_APPS := false
 TARGET_INCLUDE_STOCK_ARCORE := true
 
 # DerpTikk-ify
-DERP_BUILDTYPE := Unofficial
+DERP_BUILDTYPE := Synthetic
 
 # Inherit some common AndroidQ stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
